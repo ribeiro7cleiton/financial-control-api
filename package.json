@@ -1,0 +1,26 @@
+{
+  "name": "financial-control-api",
+  "version": "1.0.0",
+  "description": "API built for domestic finance control system project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ribeiro7cleiton/financial-control-api.git"
+  },
+  "author": "Cleiton Ribeiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ribeiro7cleiton/financial-control-api/issues"
+  },
+  "homepage": "https://github.com/ribeiro7cleiton/financial-control-api#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.4"
+  }
+}
