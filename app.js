@@ -6,6 +6,8 @@ const routes = require("./routes");
 const app = express();
 const PORT = 3000;
 
+//necessário ajustar o trycatch do erro do banco
+
 // Conectar ao banco de dados MongoDB
 mongoose.connect("mongodb://localhost:27017/controle_financeiro", {
   useNewUrlParser: true,
